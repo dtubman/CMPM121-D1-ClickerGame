@@ -4,6 +4,7 @@
 
 // Downloaded from https://www.forbes.com/digital-assets/assets/chudjak-chud/
 import chudUrl from "./assets/chud.svg?no-inline";
+import chud2Url from "./assets/chud2.jpg";
 
 //Setting up all of the game data and constants
 interface UpgradeDef {
@@ -120,6 +121,16 @@ image.src = chudUrl;
 image.alt = "The Chud mascot";
 image.width = 500;
 image.height = 500;
+
+image.addEventListener("mousedown", () => {
+  image.src = chud2Url;
+});
+image.addEventListener("mouseup", () => {
+  image.src = chudUrl;
+});
+image.addEventListener("mouseleave", () => {
+  image.src = chudUrl;
+});
 
 const hint = makeParagraph("It's time to chud out. Click me!");
 const speech = makeParagraph();
