@@ -41,6 +41,10 @@ const CATCHPHRASES = [
   "I knew you could see my inner alpha",
   "The West had fallen, billions must die",
   "Soy!",
+  "Broooooootal",
+  "Total *insert niche dislike* death",
+  "Dancing app they said....",
+  "Copium",
 ];
 
 const BASE_CLICK_POWER = 1;
